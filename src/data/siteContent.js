@@ -12,6 +12,8 @@ import {
   Truck,
 } from 'lucide-react'
 
+export const contactEmail = 'sunilsemailbag@gmail.com'
+
 export const activities = [
   {
     icon: Building2,

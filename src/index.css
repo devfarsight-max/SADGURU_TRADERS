@@ -605,6 +605,10 @@ button {
   line-height: 1.7;
 }
 
+.about-copy p:not(.about-copy__lead) + p {
+  margin-top: 15px;
+}
+
 .about-copy .text-link {
   margin-top: 23px;
 }
@@ -1120,7 +1124,6 @@ button {
 }
 
 .contact-panel {
-  min-height: 393px;
   padding: 27px 30px 24px;
   color: #25392d;
   background: #f4f2eb;

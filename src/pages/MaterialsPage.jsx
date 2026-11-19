@@ -1,6 +1,6 @@
 import { ArrowUpRight } from 'lucide-react'
 import Reveal from '../components/Reveal.jsx'
-import { products } from '../data/siteContent.js'
+import { contactEmail, products } from '../data/siteContent.js'
 
 function MaterialsPage() {
   return (
@@ -23,7 +23,7 @@ function MaterialsPage() {
               <span className="product-card__number">0{index + 1}</span>
               <h3>{name}</h3>
               <p>{detail}</p>
-              <a href={`#/contact?material=${encodeURIComponent(name)}`} className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-forest">Enquire about supply <ArrowUpRight size={16} /></a>
+              <a href={`mailto:${contactEmail}?subject=${encodeURIComponent(`Supply enquiry - ${name}`)}`} className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-forest">Email about supply <ArrowUpRight size={16} /></a>
             </Reveal>
           ))}
         </div>

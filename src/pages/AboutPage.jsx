@@ -17,10 +17,15 @@ function AboutPage() {
               construction materials to public and private sector projects.
             </p>
             <p>
-              From Gram Panchayats to PWD and other government departments, we support the work
-              behind stronger local infrastructure. Our commitment is simple: quality materials,
-              competitive pricing, timely delivery and transparent business practices.
+              We supply materials for rural roads, community facilities and other public works.
+              We serve Gram, Janpad and Zila Panchayats, the Public Works Department (PWD),
+              other government departments and private sector projects.
             </p>
+            <p>
+              Our range covers materials for foundations, structural work, masonry and drainage,
+              including cement, TMT steel, sand, stone aggregate, bricks and pipes.
+            </p>
+            <a className="text-link" href="#/materials">Explore our materials</a>
           </Reveal>
         </div>
         <div className="container about-strip">
@@ -45,8 +50,9 @@ function AboutPage() {
             <div className="eyebrow eyebrow--light"><span className="eyebrow__line" /> The Sadguru standard</div>
             <h2>Built on the<br /><em>right values.</em></h2>
             <p>
-              Good partnerships make better projects. We bring care, consistency and
-              accountability to every supply relationship.
+              We pay attention to material quality, keep pricing competitive and coordinate
+              deliveries around project needs. We value clear communication so customers can
+              plan their work and know what to expect from each order.
             </p>
           </Reveal>
           <div className="strength-list">
@@ -76,10 +82,35 @@ function AboutPage() {
             <span className="vision-card__label">OUR MISSION <span>02</span></span>
             <h2>Making progress<br />possible, together.</h2>
             <p>
-              To support government infrastructure and rural development with reliable
-              materials, transparency, efficiency and commitment.
+              To help local bodies and project teams source the materials they need for
+              public works and rural development, with clear communication from enquiry
+              through delivery.
             </p>
             <span className="vision-card__motif" aria-hidden="true">T</span>
+          </Reveal>
+        </div>
+      </section>
+
+      <section className="section about-section" aria-labelledby="supply-planning-title">
+        <div className="container about-grid">
+          <Reveal className="about-heading">
+            <h2 id="supply-planning-title" className="home-heading">Planning material supply for your site</h2>
+          </Reveal>
+          <Reveal className="about-copy" delay={0.1}>
+            <p>
+              Material requirements change as work progresses. A rural road project may need
+              stone aggregate for the base and pipes for drainage. A community building may
+              need cement and reinforcement for structural work, followed by bricks for masonry.
+              Sharing the order of work helps us discuss which materials you need at each stage.
+            </p>
+            <h3 className="mt-5 mb-2 font-semibold">What to include in an enquiry</h3>
+            <p>
+              If you have a bill of quantities, use it to list the materials, grades, sizes
+              and quantities required. Include the village or town, district and preferred
+              delivery dates. Let us know if access is limited or if materials are needed in
+              batches so we can take those details into account when discussing delivery.
+            </p>
+            <a className="text-link" href="#/contact">Contact us about your project</a>
           </Reveal>
         </div>
       </section>
